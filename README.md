@@ -2,6 +2,19 @@
 
 This Java Spring Boot application with MySQL integration is designed to manage products and their associated reviews. The application includes two models: Product and Review. The Product model includes attributes such as name, price, creation date (cDate), update date (uDate), and a unique identifier (_id). The Review model includes userId, description, creation date (cDate), update date (uDate), and a unique identifier (_id). The application provides RESTful API endpoints for CRUD operations on products and reviews, including virtual population of reviews for a product.
 
+## Setup Instructions
+
+### Prerequisites
+- Java Development Kit (JDK) 11 or higher
+- Apache Maven
+- MySQL Database Server
+
+### Clone the Repository
+```bash
+git clone https://github.com/your-username/product-review-api.git
+cd product-review-api
+
+
 
 ## Features
 
